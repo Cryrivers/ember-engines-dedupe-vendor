@@ -10,7 +10,7 @@ module.exports = {
   postprocessTree: function(type, tree) {
     if (type === 'all') {
       return new VendorDedupe(tree);
-    } 
+    }
     return tree;
   }
 };
