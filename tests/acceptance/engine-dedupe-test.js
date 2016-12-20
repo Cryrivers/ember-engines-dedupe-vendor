@@ -28,6 +28,7 @@ test('requiring `dec` helper should throw `missingModule` error before the engin
 
 test('engine-vendor.js should only contain module `ember-composable-helpers/helpers/dec`', function(assert) {
   assert.expect(2);
+  var done = assert.async();
   var defineLookupRegex = /define\(['"]([a-zA-Z0-9/-]+)['"]/gm;
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '/engines-dist/test-engine/assets/engine-vendor.js');
@@ -37,6 +38,7 @@ test('engine-vendor.js should only contain module `ember-composable-helpers/help
       var parseResult = defineLookupRegex.exec(scriptContent);
       assert.equal(parseResult.length, 2, 'engine-vendor.js should only have 1 module');
       assert.equal(parseResult[1], 'ember-composable-helpers/helpers/dec', 'the only module in engine-vendor.js should be `ember-composable-helpers/helpers/dec`');
+      done();
     }
   };
   xhr.send();
