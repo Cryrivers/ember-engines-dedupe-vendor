@@ -3,7 +3,7 @@
 # ember-engines-dedupe-vendor
 De-duplicate vendor files in your ember engines.
 
-If your ember app has multiple lazy-loading engines, and they all installed some awesome addons. The addon vendor files would be duplicated and present in both `vendor.js` and `engine-vendor.js` files. This addon aims to remove all duplicated vendor modules in `engine-vendors.js` which has already been in `vendor.js`.
+If your ember app has multiple lazy-loading engines, and they all installed some awesome addons. The addon vendor files would be duplicated and present in both `vendor.js` and `engine-vendor.js` files. This addon aims to remove all duplicated vendor modules from `engine-vendor.js` which has already been in `vendor.js`.
 
 ## Demo
 You can run the dummy app in the project for demo.
