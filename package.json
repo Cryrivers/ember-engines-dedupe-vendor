@@ -1,17 +1,20 @@
 {
   "name": "ember-engines-dedupe-vendor",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "De-duplicate vendor files in your ember engines.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Zhongliang Wang",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Cryrivers/ember-engines-dedupe-vendor"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
