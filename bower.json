@@ -1,4 +1,6 @@
 {
   "name": "ember-engines-dedupe-vendor",
-  "dependencies": {}
+  "dependencies": {
+    "ember-cli-shims": "~0.1.1"
+  }
 }
