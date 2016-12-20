@@ -8,14 +8,14 @@ If your ember app has multiple lazy-loading engines, and they all installed some
 # Demo
 You can check out the dummy app in the project for demo.
 
-## Dependencies of the dummy app
-### dummy - main app
+### Dependencies of the dummy app
+#### dummy - main app
 - liquid-fire
 - ember-concurrency
 - ember-composable-helpers
   - `inc` helper
 
-### test-engine - the lazy-loading engine
+#### test-engine - the lazy-loading engine
 - liquid-fire
 - ember-concurrency
 - ember-composable-helpers
@@ -24,8 +24,11 @@ You can check out the dummy app in the project for demo.
 
 As you can see, everything is duplicated except for `dec` helper module.
 
-## Before using `ember-engines-dedupe-vendor`
-## After using `ember-engines-dedupe-vendor`
+### Before using `ember-engines-dedupe-vendor`
+![Before](https://raw.githubusercontent.com/Cryrivers/ember-engines-dedupe-vendor/master/misc/before.png)
+
+### After using `ember-engines-dedupe-vendor`
+![After](https://raw.githubusercontent.com/Cryrivers/ember-engines-dedupe-vendor/master/misc/after.png)
 
 # Installation
 ```
