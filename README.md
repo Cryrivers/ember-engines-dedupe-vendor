@@ -42,7 +42,7 @@ $ ember install ember-engines-dedupe-vendor
 and done. You don't have to setup anything. It just works.
 
 ## Compatibility
-This addon is tested against the `release`, `beta` and `canary` channels with `ember-engines 0.5.0-beta.1`. It is not tested against `lts-2.4` and `lts-2.8` channels as those versions do not support lazy-loading engines.
+This addon is tested against the `release`, `beta` and `canary` channels with `ember-engines 0.5.0-beta.5`. It is not tested against `lts-2.4` and `lts-2.8` channels as those versions do not support lazy-loading engines.
 
 ## Testing
 ```sh
