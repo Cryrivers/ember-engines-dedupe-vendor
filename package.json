@@ -1,6 +1,6 @@
 {
   "name": "ember-engines-dedupe-vendor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "De-duplicate vendor files in your ember engines.",
   "keywords": [
     "ember-addon"
