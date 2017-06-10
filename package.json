@@ -49,7 +49,7 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.11.0-beta.2",
     "escodegen": "^1.8.1",
-    "esprima": "^3.1.2",
+    "esprima": "^4.0.0",
     "fs-extra": "^2.0.0",
     "liquid-fire": "0.27.0",
     "loader.js": "^4.0.10",
